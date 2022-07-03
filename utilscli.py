@@ -21,7 +21,7 @@ def retrain(tsize):
     click.echo(click.style("Retraining Model", bg="green", fg="white"))
     accuracy, model_name = mlib.retrain(tsize=tsize)
     click.echo(
-        click.style(f"Retrained Model Accuracy: {accuracy}", bg="blue", fg="white")
+        click.style(f"Retrained Model Accuracy: {accuracy}", bg="red", fg="white")
     )
     click.echo(click.style(f"Retrained Model Name: {model_name}", bg="red", fg="white"))
 
